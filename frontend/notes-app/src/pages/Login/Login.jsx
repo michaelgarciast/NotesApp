@@ -36,7 +36,7 @@ const Login = () => {
             <h4 className="text-2xl mb-7">Login</h4>
             <input
               type="text"
-              placeholder="Email"
+              placeholder="Emaill"
               className="input-box"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
