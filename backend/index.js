@@ -125,7 +125,7 @@ app.post('/add-note', authenticateToken, async (req, res) => {
   if (!content) {
     return res
       .status(400)
-      .json({ error: true, message: 'Content is required' });
+      .json({ error: true, message: 'Content is required ' });
   }
 
   try {
